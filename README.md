@@ -7,3 +7,7 @@
 3. <b>npm start</b>, starts the server.<br>
 4. <a>http://localhost:3000/</a> - Home Page. <br>
 5. <a>http://localhost:3000/aboutus</a> - AboutUs Page. <br>
+
+### Live Website
+
+• https://project-aws.herokuapp.com/
