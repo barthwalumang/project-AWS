@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include partials/script.ejs %>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        $.getJSON('http://www.omdbapi.com/?i=tt3896198&apikey=4a7d84d3', function(data){
+            console.log(data);
+        });
+    </script>
+</html>
