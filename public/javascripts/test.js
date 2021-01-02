@@ -1,5 +1,5 @@
 
-$.getJSON('http://www.omdbapi.com/?i=tt3896198&apikey=4a7d84d3', function(data){
+$.getJSON('https://www.omdbapi.com/?i=tt3896198&apikey=4a7d84d3', function(data){
     console.log(data);
     document.getElementById("movie").innerHTML="<h3>"+ data.Title +"</h3>"
     +"<h5>"+ data.Genre +"</h5>"
